@@ -1,0 +1,3 @@
+dn: cn=schema
+attributeTypes: ( NAME 'hostOID' DESC 'Auxiliary object class containing same information as account object class from RFC 1274' EQUALITY octetStringMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.40 )
+objectClasses: ( host-oid NAME 'host' SUP top AUXILIARY MUST uid MAY ( description $ host $ l $ o $ ou $ seeAlso ))
